@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT1 WEB - Muhammad Nabil Saragih</title>
+
+    <style>
+        .td-padding {
+            padding: 15px 0 15px 0;
+        }
+
+        img {
+            width: 160px;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" >
+        <!-- Header -->
+        <tr>
+            <td nowrap><b>Faktur Komersial /<i>Commercial Invoice</i></b></td>
+            <td colspan="2" style="text-align: center;" class="td-padding"><img src="assets/Muhammad Nabil Saragih - tokopedia.svg" alt="Tokopedia Logo"></td>
+            <td style="text-align: center;">
+                <b>Tanggal Pembelian</b>
+                <form action=""><input type="date" name="Checkout_Date" id="date" value="2023-09-12"></form>
+            </td>
+        </tr>
+
+        <!-- Nama -->
+        <tr>
+            <td class="td-padding">Nama Penjual : <b>Michael Johnson</b></td>
+            <td rowspan="2">Alamat Penjual <br>Jl. Mawar Melati, Perum Bunga Indah Blok A7 No1 Kec. Sentosa, Kota Samarinda, Kalimantan Timur, 12345 Kalimantan Timur</td>
+            <td rowspan="2" colspan="2">Alamat Pembeli <br>Jl. Semua Indah, Perum Bunga Indah Blok Z7 No1 Kec. Miramar, Kota Samarinda, Kalimantan Timur, 12345 Kalimantan Timur</td>
+        </tr>
+        <tr>
+            <td class="td-padding">Nama Pembeli : <b>Miya Yoshitaka</b></td>
+        </tr>
+
+        <!-- Produk -->
+        <tr>
+            <td>Info Produk</td>
+            <td>Jumlah</td>
+            <td>Harga Satuan</td>
+            <td>Total Harga</td>
+        </tr>
+        <tr>
+            <td class="td-padding">Nike Trinity Force Angel</td>
+            <td>
+                <form action="">
+                    <input type="number" name="jumlah" id="jumlah">
+                    <label for="jumlah"> pcs</label>
+                </form>
+            </td>
+            <td>Rp 799.000</td>
+            <td>Rp 799.000</td>
+        </tr>
+
+        <!-- Total -->
+        <tr>
+            <td colspan="2" rowspan="3"></td>
+            <td>Total Belanja</td>
+            <td>Rp 799.000</td>
+        </tr>
+        <tr>
+            <td>Total Ongkos Kirim</td>
+            <td>Rp 99.000</td>
+        </tr>
+        <tr>
+            <td>Total Tagihan</td>
+            <td><strong>Rp 898.000</strong></td>
+        </tr>
+
+        <!-- Footer -->
+        <tr>
+            <td>Kurir : <br>GNZ Ult - Ultimate</td>
+            <td colspan="4">
+                Metode Pembayaran : 
+                <form action="">
+                    <input type="radio" name="bca" id="bca">
+                    <label for="bca">Bank BCA</label>
+                    <input type="radio" name="jago" id="jago">
+                    <label for="bca">Bank Jago</label>
+                    <input type="radio" name="mandiri" id="mandiri">
+                    <label for="bca">Bank Mandiri</label>
+                    <input type="radio" name="mega" id="mega">
+                    <label for="bca">Bank Mega</label>
+                    <input type="radio" name="kaltimtara" id="kaltimtara">
+                    <label for="bca">Bank Kaltimtara</label>
+                </form>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="4">
+                <ul>
+                    <li>Nama : Muhammad Nabil Saragih</li>
+                    <li>NIM : 2209106032</li>
+                    <li>Praktikum Web : <a href="https://classroom.google.com/u/4/c/NjIxNzQ2NzkzNDcw/a/NjIzNjU3MTY3MDAx/details" target="_blank">Posttest 1</a></li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

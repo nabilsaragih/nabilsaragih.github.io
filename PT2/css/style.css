@@ -219,3 +219,187 @@ body {
 .footer-link-container li a:hover {
     text-decoration: underline;
 }
+
+/* Phone Breakpoint */
+@media all and (max-width: 480px) { 
+    /* Navbar */
+    .logo {
+        display: flex;
+        justify-content: center;
+        padding: 22.5px 5px;
+    }
+
+    .logo h5 {
+        display: flex;
+        align-items: center;
+        color: white;
+        font-weight: bold;
+        margin: 0;
+        padding-left: 5px;
+        font-size: 10px;
+    }
+
+    .icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .nav {
+        height: 4em;
+    }
+
+    .nav ul {
+        font-size: 10px;
+        margin: 0;
+        padding: 5px 0;
+    }
+
+    /* Main page content */
+    .main-page {
+        height: 70vh;
+        background-color: #9EDDFF;
+    }
+
+    .home {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+    
+    .home h2 {
+        width: 150px;
+        font-size: 12px;
+    }
+
+    .home img {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-self: center;
+    }
+
+    /* About Us Content */
+    .about-us {
+        height: 89vh;
+        background-color: #A6F6FF;
+    }
+
+    .about-us-title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-us-title h1 {
+        font-size: 24px;
+    }
+
+    .about-us-content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 6.5em;
+    }
+
+    .content-1 p {
+        max-width: 200px;
+        font-size: 10px;
+        padding-right: 5em;
+    }
+
+    .content-1 img {
+        display: flex;
+        align-self: center;
+        height: 100px;
+        width: 100px;
+    }
+
+    .content-2 p {
+        max-width: 200px;
+        font-size: 10px;
+        padding-left: 5em;
+    }
+
+    .content-2 img {
+        display: flex;
+        align-self: center;
+        height: 100px;
+        width: 100px;
+    }
+
+    /* Footer Content */
+    .footer-container {
+        font-size: 12px;
+        padding-top: 15px;
+        height: 30vh;
+        background-color: #6499E9;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .footer-link-container {
+        font-size: 12px;
+    }
+}
+
+/* Tablet Breakpoint */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    /* Home page Content */
+    .main-page {
+        height: 70vh;
+    }
+
+    /* About Us Content */
+    .about-us {
+        height: 115vh;
+    }
+
+    .about-us-title h1 {
+        font-size: 32px;
+    }
+
+    .about-us-content {
+        padding-bottom: 6.5em;
+    }
+
+    .content-1 p {
+        max-width: 400px;
+        font-size: 20px;
+        padding-right: 2em;
+    }
+
+    .content-1 img {
+        display: flex;
+        align-self: center;
+        height: 210px;
+        width: 210px;
+    }
+
+    .content-2 p {
+        max-width: 400px;
+        font-size: 20px;
+        padding-left: 2em;
+    }
+
+    .content-2 img {
+        display: flex;
+        align-self: center;
+        height: 210px;
+        width: 210px;
+    }
+
+    /* Footer Content */
+    .footer-container {
+        font-size: 14px;
+        padding-top: 3px;
+        height: 45vh;
+        background-color: #6499E9;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .footer-link-container {
+        font-size: 14px;
+    }
+}

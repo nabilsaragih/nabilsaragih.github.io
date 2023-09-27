@@ -6,6 +6,20 @@
 /* Global Attribute */
 * {
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 0.7em;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #BEFFF7;
+    border-radius: 20px;
 }
 
 body {
@@ -342,7 +356,7 @@ body {
     }
 }
 
-/* Tablet Breakpoint */
+/* Tablet Landscape Breakpoint */
 @media all and (min-width: 768px) and (max-width: 1024px) {
     /* Home page Content */
     .main-page {
@@ -401,5 +415,128 @@ body {
 
     .footer-link-container {
         font-size: 14px;
+    }
+}
+
+/* Tablet Breakpoint */
+@media all and (min-width: 480px) and (max-width: 768px) { 
+    /* Navbar */
+    .logo h5 {
+        font-size: 12px;
+    }
+
+    .icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .nav ul {
+        font-size: 12px;
+        list-style-type: none;
+        margin: 0;
+        padding-top: 12px;
+        padding-bottom: 10px;
+        overflow: hidden;
+    }
+
+    .nav li {
+        float: left;
+    }
+
+    .nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    .nav li a:hover {
+        text-decoration: underline;
+    }
+    
+    /* Main page content */
+    .main-page {
+        height: 65vh;
+        background-color: #9EDDFF;
+    }
+
+    .home {
+        display: flex;
+        justify-content: center;
+        padding-top: 200px;
+    }
+
+    .home img {
+        width: 100px;
+        height: 100px;
+        padding-right: 50px;
+        display: flex;
+        align-self: center;
+    }
+
+    .home h2 {
+        display: flex;
+        align-items: top;
+        color: #FAF9F6;
+        text-shadow: 0.5px 0.5px #000;
+        font-weight: bold;
+        font-size: 16px;
+        width: 350px;
+        margin: 0;
+    }
+
+    /* About Us Content */
+    .about-us {
+        height: 133vh;
+    }
+
+    .about-us-title h1 {
+        font-size: 24px;
+    }
+
+    .about-us-content {
+        padding-bottom: 1.5em;
+    }
+
+    .content-1 p {
+        max-width: 250px;
+        font-size: 14px;
+        padding-right: 2em;
+    }
+
+    .content-1 img {
+        display: flex;
+        align-self: center;
+        height: 150px;
+        width: 150px;
+    }
+
+    .content-2 p {
+        max-width: 250px;
+        font-size: 14px;
+        padding-right: 2em;
+    }
+
+    .content-2 img {
+        display: flex;
+        align-self: center;
+        height: 150px;
+        width: 150px;
+    }
+
+    /* Footer Content */
+    .footer-container {
+        font-size: 10px;
+        padding-top: 8em;
+        height: 25vh;
+        background-color: #6499E9;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .footer-link-container {
+        font-size: 10px;
     }
 }

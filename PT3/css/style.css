@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* pallete */
+/* https://colorhunt.co/palette/6499e99eddffa6f6ffbefff7 */
+
+/* Global Attribute */
+* {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 0.7em;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #BEFFF7;
+    border-radius: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+.logo h5 {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 5px;
+    font-size: 18px;
+}
+
+.icon {
+    margin: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: #6499E9;
+    width: 100%;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    text-decoration: underline;
+}
+
+/* Main page content */
+.main-page {
+    height: 100vh;
+    background-color: #9EDDFF;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+}
+
+.home img {
+    width: 150px;
+    height: 150px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.home h2 {
+    display: flex;
+    align-items: top;
+    color: #FAF9F6;
+    text-shadow: 0.5px 0.5px #000;
+    font-weight: bold;
+    width: 500px;
+    margin: 0;
+}
+
+/* About Us Content */
+.about-us {
+    height: 130vh;
+    background-color: #A6F6FF;
+}
+
+.about-us-title {
+    display: flex;
+    justify-content: center;
+}
+
+.about-us-title h1 {
+    margin-top: 100px;
+    color: black;
+    font-size: 36px;
+    text-shadow: 2px 2px #fff;
+    margin-bottom: 50px;
+}
+
+.about-us-content {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 6em;
+}
+
+.content-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.content-1 p {
+    max-width: 500px;
+    justify-content: center;
+    align-self: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 5em;
+    text-shadow: 2px 2px #fff;
+}
+
+.content-1 img {
+    border-radius: 25px;
+    border: 2px solid white;
+    box-shadow: 7px 7px 12px -3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 7px 7px 12px -3px rgba(0,0,0,0.5);
+    -moz-box-shadow: 7px 7px 12px -3px rgba(0,0,0,0.5);
+    width: 20em;
+}
+
+.content-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.content-2 p {
+    max-width: 500px;
+    justify-content: center;
+    align-self: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 5em;
+    text-shadow: 2px 2px #fff;
+}
+
+.content-2 img {
+    border-radius: 25px;
+    border: 2px solid white;
+    box-shadow: 7px 7px 12px -3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 7px 7px 12px -3px rgba(0,0,0,0.5);
+    -moz-box-shadow: 7px 7px 12px -3px rgba(0,0,0,0.5);
+    width: 20em;
+}
+
+/* Footer Content */
+.footer-container {
+    padding-top: 1em;
+    height: 30vh;
+    background-color: #6499E9;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-container p {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.footer-link-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-link-container ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.footer-link-container li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.footer-link-container li a:hover {
+    text-decoration: underline;
+}
+
+/* Dark mode */
+body.dark {
+    background-color: #292c35;
+}
+
+main.dark .main-page {
+    background-color: #474E68;
+}
+
+main.dark .about-us {
+    background-color: #282A3A;
+}
+
+main.dark .about-us-title h1 {
+    text-shadow: 2px 2px #000;
+}
+
+main.dark .about-us .about-us-content p {
+    color: #fff;
+    text-shadow: 2px 2px #000;
+}
+
+footer.dark .footer-container {
+    background-color: #404258;
+}
+
+footer.dark p {
+    color: #fff;
+}
+
+header.dark .nav {
+    background-color: #404258;
+}
+
+header.dark .checkbox-label {
+    background-color: #111;
+}
+
+header.dark .checkbox-label .ball {
+    background-color: #fff;
+}
+
+body.dark::-webkit-scrollbar-thumb {
+    background-color: #6B728E;
+}
+
+body.dark h1, body.dark .support a {color: #fff;}
+
+.darkmode-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 105px;
+}
+
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+.checkbox-label {
+    background-color: #fff;
+    width: 50px;
+    height: 26px;
+    border-radius: 50px;
+    position: relative;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+}
+
+.fa-moon {color: #f1c40f;}
+
+.fa-sun {color: #f39c12;}
+
+.checkbox-label .ball {
+    background-color: #111;
+    width: 31.5px;
+    height: 31.5px;
+    position: absolute;
+    left: 2.8px;
+    top: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .checkbox-label .ball {
+    transform: translateX(24px);
+}
+
+@media (min-width: 1000px) {
+    .main-page {
+        height: 55vh;
+    }
+}
+
+@media (max-width: 1000px) {
+    .main-page {
+        height: 55vh;
+    }
+
+    .about-us {
+        height: 75vh;
+    }
+
+    .about-us-title h1 {
+        font-size: 32px;
+    }
+    
+    .content-1 p {
+        max-width: 450px;
+    }
+    
+    .content-1 img {
+        height: 15em;
+        width: 18em;
+    }
+    
+    .content-2 p {
+        max-width: 450px;
+    }
+    
+    .content-2 img {
+        height: 15em;
+        width: 18em;
+    }
+
+    .footer-container {
+        padding-top: 0.5em;
+        height: 13vh;
+    }
+}
+
+@media (max-width: 800px) {
+    .home {
+        padding-top: 250px;
+    }
+
+    .main-page {
+        height: 43vh;
+    }
+
+    .home img {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-self: center;
+    }
+
+    .home h2 {
+        font-size: 20px;
+        width: 500px;
+        margin: 0;
+    }
+
+    .about-us {
+        height: 65vh;
+    }
+
+    .content-1 p {
+        font-size: 16px;
+        max-width: 380px;
+    }
+    
+    .content-1 img {
+        display: flex;
+        align-self: center;
+        height: 10em;
+        width: 14em;
+    }
+    
+    .content-2 p {
+        font-size: 16px;
+        max-width: 380px;
+    }
+    
+    .content-2 img {
+        display: flex;
+        align-self: center;
+        height: 10em;
+        width: 14em;
+    }
+
+    .footer-container {
+        padding-top: 0.25em;
+        height: 13vh;
+    }
+}
+
+@media (max-width: 700px) {
+    
+}
+
+@media (max-width: 400px) {
+    
+}
+
+@media (max-width: 300px) {
+    
+}

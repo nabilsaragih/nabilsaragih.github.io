@@ -328,11 +328,11 @@ body.dark h1, body.dark .support a {color: #fff;}
     transform: translateX(24px);
 }
 
-@media (min-width: 1000px) {
+/* @media (min-width: 1000px) {
     .main-page {
         height: 55vh;
     }
-}
+} */
 
 @media (max-width: 1000px) {
     .main-page {
@@ -427,7 +427,7 @@ body.dark h1, body.dark .support a {color: #fff;}
     }
 }
 
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
     
 }
 
@@ -437,4 +437,4 @@ body.dark h1, body.dark .support a {color: #fff;}
 
 @media (max-width: 300px) {
     
-}
+} */

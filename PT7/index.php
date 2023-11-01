@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/fish.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <title>PT4 Web - Muhammad Nabil Saragih</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="logo">
+                <img src="assets/fish.png" alt="Icon Ikan Hias Illustrated" class="icon">
+                <h5>AquaArtistry</h5>
+            </div>
+            <ul>
+                <li><a href="#Home" id="home-nav">Home</a></li>
+                <li><a href="#About" id="about-nav">About</a></li>
+                <li><a href="#Catalog" id="catalog-nav">Catalog</a></li>
+                <li><a href="#Contact" id="contact-nav">Contact</a></li>
+                <li><a href="./pages/login.php" id="login-nav">Login</a></li>
+            </ul>
+            <div class="darkmode-toggle">
+                <input type="checkbox" class="checkbox" id="checkbox">
+                <label for="checkbox" class="checkbox-label">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                    <span class="ball"></span>
+                </label>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="main-page">
+            <section class="home" id="Home"> 
+                <img src="assets/fish.png" alt="Icon Ikan Hias but its on the home page">
+                <h2 class="home-content">Discover a dazzling array of ornamental fish to enhance the beauty of your aquarium and elevate your underwater world.</h2>
+            </section>
+        </div>
+    
+        <div class="about-us">
+            <section class="about-us-title" id="About">
+                <h1 class="title">About Us</h1>
+            </section>
+    
+            <section class="about-us-content">
+                <div class="content-1">
+                    <p>Welcome to our page, your premier destination for exquisite ornamental fish and everything aquatic. We are passionate about bringing the enchanting world of underwater life to enthusiasts, hobbyists, and collectors alike.</p>
+                    <img src="https://source.unsplash.com/-BGUyzmFjk4" alt="Gambar Ikan Nyata 1">
+                </div>
+            </section>
+
+            <section class="about-us-content">
+                <div class="content-2">
+                    <img src="https://source.unsplash.com/YRShYRewi0M" alt="Gambar Ikan Nyata 2">
+                    <p>We believe that the beauty and serenity of a well-maintained aquarium can brighten any space and bring tranquility to your life. Our journey began with a shared love for aquatic life and a commitment to delivering the highest quality ornamental fish to our customers.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p>Copyright ©️ 2023 AquaArtistry</p>
+            <div class="footer-link-container">
+                <ul>
+                    <li><a href="" target="_blank" rel="noopener noreferrer">Legal Stuff</a></li>
+                    <li><a href="" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
+                    <li><a href="" target="_blank" rel="noopener noreferrer">Security</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="./scripts/js/script.js"></script>
+</body>
+</html>
